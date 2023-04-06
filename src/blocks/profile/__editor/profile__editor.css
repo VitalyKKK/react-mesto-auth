@@ -1,0 +1,21 @@
+.profile__editor {
+  min-width: 24px;
+  min-height: 24px;
+  background: transparent url("../../../images/editor_btn.svg") no-repeat center;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile__editor:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__editor {
+    min-width: 18px;
+    min-height: 18px;
+  }
+}
