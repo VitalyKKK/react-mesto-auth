@@ -7,6 +7,7 @@ function Header() {
         <a href="#" className="header__logo-link">
           <img src={logoHeader} className="header__logo" alt="Логотип" />
         </a>
+        <NavBar />
       </div>
     </header>
   );

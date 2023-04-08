@@ -39,14 +39,6 @@ class Api {
     }).then((res) => this._handleRequest(res));
   }
 
-  addNewCard(data) {
-    return fetch(`${this._baseUrl}/cards`, {
-      headers: this._headers,
-      method: 'POST',
-      body: JSON.stringify(data),
-    }).then((res) => this._handleRequest(res));
-  }
-
   deleteCard(cardId) {
     return fetch(`${this._baseUrl}/cards/${cardId}`, {
       headers: this._headers,

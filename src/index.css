@@ -52,3 +52,8 @@
 @import url('../src/blocks/popup/__container/_remove/popup__container_remove.css');
 @import url('../src/blocks/popup/__btn-yes/popup__btn-yes.css');
 @import url('../src/blocks/popup/__title-name/_remove/popup__title-name_remove.css');
+
+@import url('../src/blocks/auth/auth.css');
+@import url('../src/blocks/auth/__button/auth__button.css');
+@import url('../src/blocks/auth/__email/auth__email.css');
+@import url('../src/blocks/auth/__link/auth__link.css');
