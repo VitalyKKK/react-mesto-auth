@@ -1,4 +1,8 @@
-.menu__link {
+.auth__link {
   color: white;
   text-decoration: none;
+}
+
+.auth__link:hover {
+  opacity: 0.6;
 }

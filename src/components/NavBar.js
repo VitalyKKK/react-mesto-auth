@@ -1,6 +1,6 @@
 import { Routes, Route, NavLink } from 'react-router-dom';
 
-function NavBar() {
+function NavBar({ userEmail, handleLogout }) {
   return (
     <nav className="auth">
       <Routes>
@@ -28,8 +28,10 @@ function NavBar() {
           path="/"
           element={
             <>
-              <p className="auth__email">email</p>
-              <button className="auth__button">Выйти</button>
+              <p className="auth__email">{userEmail}</p>
+              <button className="auth__button" onClick={handleLogout}>
+                Выйти
+              </button>
             </>
           }
         >

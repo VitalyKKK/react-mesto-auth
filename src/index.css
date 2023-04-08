@@ -52,8 +52,18 @@
 @import url('../src/blocks/popup/__container/_remove/popup__container_remove.css');
 @import url('../src/blocks/popup/__btn-yes/popup__btn-yes.css');
 @import url('../src/blocks/popup/__title-name/_remove/popup__title-name_remove.css');
+@import url('../src/blocks/popup/__image-info/popup__image-info.css');
+@import url('../src/blocks/popup/__title-info/popup__title-info.css');
 
 @import url('../src/blocks/auth/auth.css');
 @import url('../src/blocks/auth/__button/auth__button.css');
 @import url('../src/blocks/auth/__email/auth__email.css');
 @import url('../src/blocks/auth/__link/auth__link.css');
+
+@import url(../src/blocks/authform/__button/authform__button.css);
+@import url(../src/blocks/authform/__form/authform__form.css);
+@import url(../src/blocks/authform/__input/authform__input.css);
+@import url(../src/blocks/authform/__link/authform__link.css);
+@import url(../src/blocks/authform/__text/authform__text.css);
+@import url(../src/blocks/authform/__title/authform__title.css);
+@import url(../src/blocks/authform/authform.css);

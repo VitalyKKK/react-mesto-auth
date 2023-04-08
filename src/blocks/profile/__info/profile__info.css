@@ -4,8 +4,7 @@
   box-sizing: border-box;
   align-items: center;
   gap: 16px 18px;
-  margin: 0 0 0 30px;
-  padding: 0;
+  padding-left: 30px;
 }
 
 @media screen and (max-width: 768px) {
