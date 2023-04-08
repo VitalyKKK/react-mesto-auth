@@ -2,6 +2,7 @@
 @import url('../src/vendor/fonts/font.css');
 
 @import url('../src/blocks/root/root.css');
+@import url('../src/blocks/page/page.css');
 
 @import url('../src/blocks/header/header.css');
 @import url('../src/blocks/header/__container/header__container.css');
@@ -60,10 +61,10 @@
 @import url('../src/blocks/auth/__email/auth__email.css');
 @import url('../src/blocks/auth/__link/auth__link.css');
 
-@import url(../src/blocks/authform/__button/authform__button.css);
-@import url(../src/blocks/authform/__form/authform__form.css);
-@import url(../src/blocks/authform/__input/authform__input.css);
-@import url(../src/blocks/authform/__link/authform__link.css);
-@import url(../src/blocks/authform/__text/authform__text.css);
-@import url(../src/blocks/authform/__title/authform__title.css);
-@import url(../src/blocks/authform/authform.css);
+@import url('../src/blocks/authform/authform.css');
+@import url('../src/blocks/authform/__button/authform__button.css');
+@import url('../src/blocks/authform/__form/authform__form.css');
+@import url('../src/blocks/authform/__input/authform__input.css');
+@import url('../src/blocks/authform/__link/authform__link.css');
+@import url('../src/blocks/authform/__text/authform__text.css');
+@import url('../src/blocks/authform/__title/authform__title.css');
